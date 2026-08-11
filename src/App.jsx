@@ -209,23 +209,22 @@ const Experiencia = () => {
 const Portfolio = () => {
   // Lista (Array) de Objetos com os dados dos Projetos
   const projetos = [
-    { id: 1, img: '/imagens/p1.png', titulo: 'Galeria', desc: 'Projeto desenvolvido em aula de frontEnd, utilizando Html, Css e React.' },
-    { id: 2, img: '/imagens/p2.png', titulo: 'Catálogo de Filmes', desc: 'Sistema de cadastro de filmes para computador e celular.' },
-    { id: 3, img: '/imagens/p3.png', titulo: 'Cadastro de Filmes', desc: 'Interface de cadastro com upload de posters.' },
-    { id: 4, img: '/imagens/p4.png', titulo: 'Cadastro de Perfil', desc: 'Projeto vinculado ao banco de dados.' },
-    { id: 5, img: '/imagens/p5.png', titulo: 'Sistema de Voto', desc: 'Projeto para dispositivos móveis.' },
-    { id: 6, img: '/imagens/p6.png', titulo: 'Quitanda', desc: 'Desenvolvimento em Python com backend.' },
-  ];
+  { id: 1, img: `${import.meta.env.BASE_URL}imagens/p1.png`, titulo: 'Galeria', desc: 'Projeto desenvolvido em aula de frontEnd, utilizando Html, Css e React.' },
+  { id: 2, img: `${import.meta.env.BASE_URL}imagens/p2.png`, titulo: 'Catálogo de Filmes', desc: 'Sistema de cadastro de filmes para computador e celular.' },
+  { id: 3, img: `${import.meta.env.BASE_URL}imagens/p3.png`, titulo: 'Cadastro de Filmes', desc: 'Interface de cadastro com upload de posters.' },
+  { id: 4, img: `${import.meta.env.BASE_URL}imagens/p4.png`, titulo: 'Cadastro de Perfil', desc: 'Projeto vinculado ao banco de dados.' },
+  { id: 5, img: `${import.meta.env.BASE_URL}imagens/p5.png`, titulo: 'Sistema de Voto', desc: 'Projeto para dispositivos móveis.' },
+  { id: 6, img: `${import.meta.env.BASE_URL}imagens/p6.png`, titulo: 'Quitanda', desc: 'Desenvolvimento em Python com backend.' },
+];
 
-  // Lista (Array) de Objetos com os dados das Artes
-  const artes = [
-    { id: 11, img: '/imagens/p11.png', titulo: 'Yasmin - 2026', desc: 'Desenho feito pelo celular à mão de personagem para RPG.' },
-    { id: 12, img: '/imagens/p12.png', titulo: 'Heidi e Nitchs', desc: 'Desenho feito no computador com Paint.' },
-    { id: 13, img: '/imagens/p13.png', titulo: 'So-min', desc: 'Desenho digital de personagem.' },
-    { id: 14, img: '/imagens/p14.png', titulo: 'Naya e Furfur', desc: 'Desenho feito para projeto autoral.' },
-    { id: 15, img: '/imagens/p15.png', titulo: 'Olhos - 2025', desc: 'Estudo de expressões e estilo de arte.' },
-    { id: 16, img: '/imagens/p16.png', titulo: 'Mizu - Cyberpunk', desc: 'Personagem inspirada na estética Cyberpunk.' },
-  ];
+const artes = [
+  { id: 11, img: `${import.meta.env.BASE_URL}imagens/p11.png`, titulo: 'Yasmin - 2026', desc: 'Desenho feito pelo celular à mão de personagem para RPG.' },
+  { id: 12, img: `${import.meta.env.BASE_URL}imagens/p12.png`, titulo: 'Heidi e Nitchs', desc: 'Desenho feito no computador com Paint.' },
+  { id: 13, img: `${import.meta.env.BASE_URL}imagens/p13.png`, titulo: 'So-min', desc: 'Desenho digital de personagem.' },
+  { id: 14, img: `${import.meta.env.BASE_URL}imagens/p14.png`, titulo: 'Naya e Furfur', desc: 'Desenho feito para projeto autoral.' },
+  { id: 15, img: `${import.meta.env.BASE_URL}imagens/p15.png`, titulo: 'Olhos - 2025', desc: 'Estudo de expressões e estilo de arte.' },
+  { id: 16, img: `${import.meta.env.BASE_URL}imagens/p16.png`, titulo: 'Mizu - Cyberpunk', desc: 'Personagem inspirada na estética Cyberpunk.' },
+];
 
   // Junta os dois arrays em um só usando o operador Spread (...)
   const todosOsItens = [...projetos, ...artes];
