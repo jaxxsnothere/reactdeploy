@@ -52,11 +52,11 @@ const Home = () => (
       {/* Coluna da Esquerda: Cartão com Foto e Dados Básicos */}
       <div className="col-lg-3 col-md-4 mb-4">
         <div className="card bg-body-tertiary border-secondary text-light text-center p-3">
-          <img
-            src="public/imagens/venus.png"
-            className="card-img-top rounded-circle mx-auto d-block mb-3"
-            alt="Perfil"
-            style={{ width: '160px', height: '160px', objectFit: 'cover' }}
+      <img
+          src={`${import.meta.env.BASE_URL}imagens/venus.png`}
+          className="card-img-top rounded-circle mx-auto d-block mb-3"
+          alt="Perfil"
+          style={{ width: '160px', height: '160px', objectFit: 'cover' }}
           />
           <h3 className="card-title fs-4">Maísa Oliveira Vicente</h3>
           <p className="text-body-secondary small">
