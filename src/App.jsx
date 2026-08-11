@@ -53,7 +53,7 @@ const Home = () => (
       <div className="col-lg-3 col-md-4 mb-4">
         <div className="card bg-body-tertiary border-secondary text-light text-center p-3">
           <img
-            src="imagens/venus.png"
+            src="public/imagens/venus.png"
             className="card-img-top rounded-circle mx-auto d-block mb-3"
             alt="Perfil"
             style={{ width: '160px', height: '160px', objectFit: 'cover' }}
