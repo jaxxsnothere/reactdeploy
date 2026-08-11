@@ -82,7 +82,7 @@ const Home = () => (
             profissional), programação, leitura e escrita, o que me permite poder explorar diferentes áreas e perspectivas.
             Fazia Karatê estilo Shotokan, porém infelizmente tive que parar com o treino por conta de uma lesão que tive no joelho durante um treino, parei na faixa amarela.
             Tenho grande interesse em aprender coisas novas, Atualmente estou aprendendo a língua
-            Russa e tendo conhecimento em inglês intermediário.
+            Russa e tenho conhecimento em inglês intermediário.
             Embora ansiosa com interações sociais, busco sempre ser educada e respeitosa.
           </p>
         </div>
